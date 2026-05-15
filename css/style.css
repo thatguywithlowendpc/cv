@@ -13,11 +13,11 @@
 }
 .card{
     padding: 30px;
-    width: 40%;
-    height: 90%;
+    width: 50%;
+    height: 100%;
     background-color: #333333;
-    border-radius: 30px;
-    border: 1px solid #ceccc5;
+    /* border-radius: 30px;
+    border: 1px solid #ceccc5; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -26,4 +26,33 @@
     font-family: 'Arial', sans-serif;
     color: #BDBBB0;
 }
-.header
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.avatar{
+     
+    position: relative;
+    
+    border-style: groove;
+  margin: 15px;
+  width: 280px;
+  height: 280px;
+
+  /* Cắt ảnh để lấp đầy khung mà không làm biến dạng tỷ lệ */
+  object-fit: cover; 
+  /* Bạn có thể chỉnh vị trí cắt bằng object-position */
+  object-position: top; /* hoặc top, bottom, 20% 50% */
+}
+.myself{
+   background-color: #121211;
+    padding: 20px;  
+    width: ;
+   display: block;
+
+    text-align: center;
+    border-radius: 10px;
+}
