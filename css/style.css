@@ -47,7 +47,7 @@
   /* Bạn có thể chỉnh vị trí cắt bằng object-position */
   object-position: top; /* hoặc top, bottom, 20% 50% */
 }
-.myself{
+/* .myself{
    background-color: #121211;
     padding: 20px;  
     width: ;
@@ -55,4 +55,4 @@
 
     text-align: center;
     border-radius: 10px;
-}
+} */
